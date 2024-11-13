@@ -1,0 +1,127 @@
+[0.018s] Invoking command in '/home/qjari/turtlebot4_ws/build/turtlebot4_ignition_gui_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/qjari/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_gui_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins
+[0.097s] -- The C compiler identification is GNU 11.4.0
+[0.170s] -- The CXX compiler identification is GNU 11.4.0
+[0.182s] -- Detecting C compiler ABI info
+[0.263s] -- Detecting C compiler ABI info - done
+[0.279s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.279s] -- Detecting C compile features
+[0.279s] -- Detecting C compile features - done
+[0.283s] -- Detecting CXX compiler ABI info
+[0.392s] -- Detecting CXX compiler ABI info - done
+[0.408s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.408s] -- Detecting CXX compile features
+[0.409s] -- Detecting CXX compile features - done
+[0.414s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.580s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.649s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.681s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.845s] -- Looking for ignition-gui6 -- found version 6.8.0
+[0.852s] -- Searching for dependencies of ignition-gui6
+[1.064s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.065s] -- Checking for module 'tinyxml2'
+[1.074s] --   Found tinyxml2, version 9.0.0
+[1.114s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.115s] -- Searching for dependencies of ignition-math6
+[1.124s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.124s] -- Searching for dependencies of ignition-common4
+[1.124s] -- Looking for dlfcn.h - found
+[1.126s] -- Looking for libdl - found
+[1.127s] -- Found DL: TRUE  
+[1.133s] -- Checking for module 'uuid'
+[1.155s] --   Found uuid, version 2.37.2
+[1.199s] -- Found UUID: TRUE  
+[1.202s] -- Searching for <ignition-common4> component [profiler]
+[1.203s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[1.204s] -- Searching for dependencies of ignition-common4-profiler
+[1.209s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.209s] -- Searching for dependencies of ignition-plugin1
+[1.211s] -- Searching for <ignition-plugin1> component [loader]
+[1.213s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[1.213s] -- Searching for dependencies of ignition-plugin1-loader
+[1.215s] -- Searching for <ignition-plugin1> component [register]
+[1.219s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[1.219s] -- Searching for dependencies of ignition-plugin1-register
+[1.223s] -- Looking for ignition-transport11 -- found version 11.4.1
+[1.223s] -- Searching for dependencies of ignition-transport11
+[1.254s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.266s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.271s] -- Checking for module 'libzmq >= 4'
+[1.286s] --   Found libzmq , version 4.3.4
+[1.336s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.364s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.364s] -- Searching for dependencies of ignition-utils1
+[1.365s] -- Searching for <ignition-utils1> component [cli]
+[1.368s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[1.369s] -- Searching for dependencies of ignition-utils1-cli
+[1.373s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.373s] -- Searching for dependencies of ignition-msgs8
+[1.395s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.395s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.412s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[1.413s] -- Searching for dependencies of ignition-rendering6
+[1.413s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.414s] -- Searching for dependencies of ignition-math6
+[1.414s] -- Searching for <ignition-math6> component [eigen3]
+[1.419s] -- Looking for ignition-math6-eigen3 -- found version 6.15.1
+[1.420s] -- Searching for dependencies of ignition-math6-eigen3
+[1.431s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.432s] -- Searching for dependencies of ignition-common4
+[1.432s] -- Looking for dlfcn.h - found
+[1.432s] -- Looking for libdl - found
+[1.443s] -- Searching for <ignition-common4> component [graphics]
+[1.447s] -- Looking for ignition-common4-graphics -- found version 4.7.0
+[1.447s] -- Searching for dependencies of ignition-common4-graphics
+[1.447s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.448s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.450s] -- Searching for <ignition-common4> component [events]
+[1.453s] -- Looking for ignition-common4-events -- found version 4.7.0
+[1.453s] -- Searching for dependencies of ignition-common4-events
+[1.454s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.455s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.456s] -- Searching for dependencies of ignition-plugin1
+[1.456s] -- Searching for <ignition-plugin1> component [all]
+[1.459s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[1.459s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.470s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.474s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.481s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.481s] -- Configured cppcheck include dirs: 
+[1.481s] -- Configured cppcheck exclude dirs and/or files: 
+[1.483s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.483s] -- Configured cpplint exclude dirs and/or files: 
+[1.486s] -- Added test 'lint_cmake' to check CMake code style
+[1.487s] -- Added test 'xmllint' to check XML markup files
+[1.491s] -- Configuring done
+[1.514s] -- Generating done
+[1.514s] -- Build files have been written to: /home/qjari/turtlebot4_ws/build/turtlebot4_ignition_gui_plugins
+[1.533s] Invoked command in '/home/qjari/turtlebot4_ws/build/turtlebot4_ignition_gui_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/qjari/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_gui_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins
+[1.533s] Invoking command in '/home/qjari/turtlebot4_ws/build/turtlebot4_ignition_gui_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qjari/turtlebot4_ws/build/turtlebot4_ignition_gui_plugins -- -j8 -l8
+[1.597s] [ 16%] [34m[1mAutomatic MOC for target Turtlebot4Hmi[0m
+[2.743s] [ 16%] Built target Turtlebot4Hmi_autogen
+[2.755s] [ 33%] [34m[1mGenerating qrc_Turtlebot4Hmi.cpp[0m
+[2.791s] [ 50%] [32mBuilding CXX object Turtlebot4Hmi/CMakeFiles/Turtlebot4Hmi.dir/Turtlebot4Hmi_autogen/mocs_compilation.cpp.o[0m
+[2.792s] [ 66%] [32mBuilding CXX object Turtlebot4Hmi/CMakeFiles/Turtlebot4Hmi.dir/qrc_Turtlebot4Hmi.cpp.o[0m
+[2.795s] [ 83%] [32mBuilding CXX object Turtlebot4Hmi/CMakeFiles/Turtlebot4Hmi.dir/Turtlebot4Hmi.cc.o[0m
+[10.663s] [100%] [32m[1mLinking CXX shared library libTurtlebot4Hmi.so[0m
+[11.090s] [100%] Built target Turtlebot4Hmi
+[11.105s] Invoked command in '/home/qjari/turtlebot4_ws/build/turtlebot4_ignition_gui_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qjari/turtlebot4_ws/build/turtlebot4_ignition_gui_plugins -- -j8 -l8
+[11.157s] Invoking command in '/home/qjari/turtlebot4_ws/build/turtlebot4_ignition_gui_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/qjari/turtlebot4_ws/build/turtlebot4_ignition_gui_plugins
+[11.164s] -- Install configuration: ""
+[11.165s] -- Execute custom install script
+[11.165s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/lib/libTurtlebot4Hmi.so
+[11.182s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/ament_index/resource_index/package_run_dependencies/turtlebot4_ignition_gui_plugins
+[11.185s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/ament_index/resource_index/parent_prefix_path/turtlebot4_ignition_gui_plugins
+[11.194s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/environment/ament_prefix_path.sh
+[11.202s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/environment/ament_prefix_path.dsv
+[11.211s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/environment/path.sh
+[11.221s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/environment/path.dsv
+[11.229s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/local_setup.bash
+[11.238s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/local_setup.sh
+[11.247s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/local_setup.zsh
+[11.259s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/local_setup.dsv
+[11.269s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/package.dsv
+[11.286s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/ament_index/resource_index/packages/turtlebot4_ignition_gui_plugins
+[11.294s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/cmake/turtlebot4_ignition_gui_pluginsConfig.cmake
+[11.303s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/cmake/turtlebot4_ignition_gui_pluginsConfig-version.cmake
+[11.312s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/package.xml
+[11.325s] Invoked command in '/home/qjari/turtlebot4_ws/build/turtlebot4_ignition_gui_plugins' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/qjari/turtlebot4_ws/build/turtlebot4_ignition_gui_plugins

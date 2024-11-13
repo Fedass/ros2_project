@@ -1,0 +1,41 @@
+[0.015s] Invoking command in '/home/qjari/turtlebot4_ws/build/turtlebot4_simulator': AMENT_PREFIX_PATH=/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble /usr/bin/cmake /home/qjari/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_simulator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/qjari/turtlebot4_ws/install/turtlebot4_simulator
+[0.081s] -- The C compiler identification is GNU 11.4.0
+[0.149s] -- The CXX compiler identification is GNU 11.4.0
+[0.158s] -- Detecting C compiler ABI info
+[0.239s] -- Detecting C compiler ABI info - done
+[0.256s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.256s] -- Detecting C compile features
+[0.256s] -- Detecting C compile features - done
+[0.257s] -- Detecting CXX compiler ABI info
+[0.350s] -- Detecting CXX compiler ABI info - done
+[0.361s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.362s] -- Detecting CXX compile features
+[0.362s] -- Detecting CXX compile features - done
+[0.365s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.534s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.604s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.709s] -- Configuring done
+[0.713s] -- Generating done
+[0.714s] -- Build files have been written to: /home/qjari/turtlebot4_ws/build/turtlebot4_simulator
+[0.725s] Invoked command in '/home/qjari/turtlebot4_ws/build/turtlebot4_simulator' returned '0': AMENT_PREFIX_PATH=/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble /usr/bin/cmake /home/qjari/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_simulator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/qjari/turtlebot4_ws/install/turtlebot4_simulator
+[0.725s] Invoking command in '/home/qjari/turtlebot4_ws/build/turtlebot4_simulator': AMENT_PREFIX_PATH=/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble /usr/bin/cmake --build /home/qjari/turtlebot4_ws/build/turtlebot4_simulator -- -j8 -l8
+[0.771s] Invoked command in '/home/qjari/turtlebot4_ws/build/turtlebot4_simulator' returned '0': AMENT_PREFIX_PATH=/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble /usr/bin/cmake --build /home/qjari/turtlebot4_ws/build/turtlebot4_simulator -- -j8 -l8
+[0.794s] Invoking command in '/home/qjari/turtlebot4_ws/build/turtlebot4_simulator': AMENT_PREFIX_PATH=/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble /usr/bin/cmake --install /home/qjari/turtlebot4_ws/build/turtlebot4_simulator
+[0.802s] -- Install configuration: ""
+[0.802s] -- Execute custom install script
+[0.802s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_simulator/share/ament_index/resource_index/package_run_dependencies/turtlebot4_simulator
+[0.811s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_simulator/share/ament_index/resource_index/parent_prefix_path/turtlebot4_simulator
+[0.820s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/environment/ament_prefix_path.sh
+[0.830s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/environment/ament_prefix_path.dsv
+[0.839s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/environment/path.sh
+[0.848s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/environment/path.dsv
+[0.860s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/local_setup.bash
+[0.865s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/local_setup.sh
+[0.875s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/local_setup.zsh
+[0.885s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/local_setup.dsv
+[0.895s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/package.dsv
+[0.904s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_simulator/share/ament_index/resource_index/packages/turtlebot4_simulator
+[0.912s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/cmake/turtlebot4_simulatorConfig.cmake
+[0.921s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/cmake/turtlebot4_simulatorConfig-version.cmake
+[0.933s] -- Symlinking: /home/qjari/turtlebot4_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/package.xml
+[0.950s] Invoked command in '/home/qjari/turtlebot4_ws/build/turtlebot4_simulator' returned '0': AMENT_PREFIX_PATH=/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/qjari/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble /usr/bin/cmake --install /home/qjari/turtlebot4_ws/build/turtlebot4_simulator
