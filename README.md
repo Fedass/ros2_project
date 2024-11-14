@@ -15,12 +15,12 @@ ign gazebo world.sdf
 
 ## Запуск симуляции с turtlebot 4
 1. Создал рабочее пространство для TurtleBot 4:
-mkdir -p ~/turtlebot4_ws/src
-cd ~/turtlebot4_ws/src
-git clone https://github.com/turtlebot/turtlebot4.git
+<pre><code>mkdir -p ~/turtlebot4_ws/src</code></pre>
+<pre><code>cd ~/turtlebot4_ws/src</code></pre>
+<pre><code>git clone https://github.com/turtlebot/turtlebot4.git</code></pre>
 2. Составил рабочее пространство:
-cd ~/turtlebot4_ws
-colcon build --symlink-install
+<pre><code>cd ~/turtlebot4_ws</code></pre>
+<pre><code>colcon build --symlink-install</code></pre>
 3. Запустил симуляцию TurtleBot 4:
-ros2 launch turtlebot4_ignition_bringup turtlebot4_ignition.launch.py nav2:=true slam:=false localization:=true rviz:=true
+<pre><code>ros2 launch turtlebot4_ignition_bringup turtlebot4_ignition.launch.py nav2:=true slam:=false localization:=true rviz:=true</code></pre>
 
