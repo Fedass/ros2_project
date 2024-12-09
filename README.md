@@ -13,14 +13,12 @@ ign gazebo world.sdf
 3. В симуляции загрузил предметы мебели, пол и свет.
 4. Сохранил мир через "Save world as", файл с раширением sdf (лучше выбрать тот же самый файл world.sdf), поставил "Expand include tags" и "Save Fuel model version".
 
-## Запуск симуляции с turtlebot 4
-1. Создал рабочее пространство для TurtleBot 4:
-<pre><code>mkdir -p ~/turtlebot4_ws/src</code></pre>
-<pre><code>cd ~/turtlebot4_ws/src</code></pre>
-<pre><code>git clone https://github.com/turtlebot/turtlebot4.git</code></pre>
-2. Составил рабочее пространство:
-<pre><code>cd ~/turtlebot4_ws</code></pre>
-<pre><code>colcon build --symlink-install</code></pre>
-3. Запустил симуляцию TurtleBot 4:
-<pre><code>ros2 launch turtlebot4_ignition_bringup turtlebot4_ignition.launch.py nav2:=true slam:=false localization:=true rviz:=true</code></pre>
-
+## Запуск симуляции с turtlebot 3
+1. Создал рабочее пространство для TurtleBot 3:
+<pre><code>mkdir -p ~/turtlebot3_ws/src</code></pre>
+<pre><code>cd ~/turtlebot3_ws/src</code></pre>
+<pre><code>git clone -b humble https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git</code></pre>
+2. Собрал рабочее пространство:
+<pre><code>cd ~/turtlebot3_ws && colcon build --symlink-install</code></pre>
+3. Запустил симуляцию TurtleBot 3:
+<pre><code>ros2 launch turtlebot3_gazebo myworld.launch.py</code></pre>
