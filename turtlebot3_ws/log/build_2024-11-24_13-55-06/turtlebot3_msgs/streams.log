@@ -1,0 +1,34 @@
+[0.028s] Invoking command in '/home/qjari/turtlebot3_ws/build/turtlebot3_msgs': /usr/bin/cmake /home/qjari/turtlebot3_ws/src/turtlebot3/turtlebot3_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/qjari/turtlebot3_ws/install/turtlebot3_msgs
+[0.086s] -- The C compiler identification is GNU 11.4.0
+[0.160s] -- The CXX compiler identification is GNU 11.4.0
+[0.170s] -- Detecting C compiler ABI info
+[0.245s] -- Detecting C compiler ABI info - done
+[0.257s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.258s] -- Detecting C compile features
+[0.258s] -- Detecting C compile features - done
+[0.267s] -- Detecting CXX compiler ABI info
+[0.369s] -- Detecting CXX compiler ABI info - done
+[0.380s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.381s] -- Detecting CXX compile features
+[0.381s] -- Detecting CXX compile features - done
+[0.397s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[0.550s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.637s] Traceback (most recent call last):
+[0.637s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.637s]     from ament_package.templates import get_environment_hook_template_path
+[0.637s] ModuleNotFoundError: No module named 'ament_package'
+[0.648s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.649s]   execute_process(/usr/bin/python3
+[0.649s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.649s]   /home/qjari/turtlebot3_ws/build/turtlebot3_msgs/ament_cmake_package_templates/templates.cmake)
+[0.649s]   returned error code 1
+[0.649s] Call Stack (most recent call first):
+[0.649s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.649s]   /opt/ros/humble/share/action_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.649s]   /opt/ros/humble/share/action_msgs/cmake/action_msgsConfig.cmake:41 (include)
+[0.649s]   CMakeLists.txt:18 (find_package)
+[0.650s] 
+[0.650s] [0m
+[0.650s] -- Configuring incomplete, errors occurred!
+[0.650s] See also "/home/qjari/turtlebot3_ws/build/turtlebot3_msgs/CMakeFiles/CMakeOutput.log".
+[0.662s] Invoked command in '/home/qjari/turtlebot3_ws/build/turtlebot3_msgs' returned '1': /usr/bin/cmake /home/qjari/turtlebot3_ws/src/turtlebot3/turtlebot3_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/qjari/turtlebot3_ws/install/turtlebot3_msgs

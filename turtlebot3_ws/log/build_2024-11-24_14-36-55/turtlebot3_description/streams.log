@@ -1,0 +1,44 @@
+[0.033s] Invoking command in '/home/qjari/turtlebot3_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/qjari/turtlebot3_ws/src/turtlebot3/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/qjari/turtlebot3_ws/install/turtlebot3_description
+[0.048s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.184s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.223s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.373s] -- Configuring done
+[0.377s] -- Generating done
+[0.381s] -- Build files have been written to: /home/qjari/turtlebot3_ws/build/turtlebot3_description
+[0.386s] Invoked command in '/home/qjari/turtlebot3_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/qjari/turtlebot3_ws/src/turtlebot3/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/qjari/turtlebot3_ws/install/turtlebot3_description
+[0.397s] Invoking command in '/home/qjari/turtlebot3_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qjari/turtlebot3_ws/build/turtlebot3_description -- -j8 -l8
+[0.729s] Invoked command in '/home/qjari/turtlebot3_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qjari/turtlebot3_ws/build/turtlebot3_description -- -j8 -l8
+[0.808s] Invoking command in '/home/qjari/turtlebot3_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/qjari/turtlebot3_ws/build/turtlebot3_description
+[0.825s] -- Install configuration: ""
+[0.825s] -- Execute custom install script
+[0.825s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl
+[0.843s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl
+[0.856s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl
+[0.866s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae
+[0.879s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg
+[0.900s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl
+[0.916s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae
+[0.924s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg
+[0.931s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl
+[0.944s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl
+[0.951s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+[0.961s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf
+[0.970s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf
+[0.977s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf
+[0.984s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf
+[0.990s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+[0.997s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+[1.005s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+[1.012s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv
+[1.020s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+[1.027s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv
+[1.035s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+[1.042s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+[1.049s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+[1.056s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv
+[1.063s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv
+[1.074s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+[1.077s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+[1.084s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+[1.091s] -- Symlinking: /home/qjari/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml
+[1.187s] Invoked command in '/home/qjari/turtlebot3_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/qjari/turtlebot3_ws/build/turtlebot3_description

@@ -1,0 +1,2 @@
+Invoking command in '/home/qjari/turtlebot3_ws/src/build/hls_lfcd_lds_driver': /usr/bin/cmake /home/qjari/turtlebot3_ws/src/utils/hls_lfcd_lds_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/qjari/turtlebot3_ws/src/install/hls_lfcd_lds_driver
+Invoked command in '/home/qjari/turtlebot3_ws/src/build/hls_lfcd_lds_driver' returned '1': /usr/bin/cmake /home/qjari/turtlebot3_ws/src/utils/hls_lfcd_lds_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/qjari/turtlebot3_ws/src/install/hls_lfcd_lds_driver

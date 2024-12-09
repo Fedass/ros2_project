@@ -1,0 +1,4 @@
+Invoking command in '/home/qjari/turtlebot3_ws/src/build/ld08_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qjari/turtlebot3_ws/src/build/ld08_driver -- -j8 -l8
+Invoked command in '/home/qjari/turtlebot3_ws/src/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qjari/turtlebot3_ws/src/build/ld08_driver -- -j8 -l8
+Invoking command in '/home/qjari/turtlebot3_ws/src/build/ld08_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/qjari/turtlebot3_ws/src/build/ld08_driver
+Invoked command in '/home/qjari/turtlebot3_ws/src/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/qjari/turtlebot3_ws/src/build/ld08_driver

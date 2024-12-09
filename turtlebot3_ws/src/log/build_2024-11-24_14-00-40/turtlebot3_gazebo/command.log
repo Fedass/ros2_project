@@ -1,0 +1,1 @@
+Invoking command in '/home/qjari/turtlebot3_ws/src/build/turtlebot3_gazebo': /usr/bin/cmake /home/qjari/turtlebot3_ws/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/qjari/turtlebot3_ws/src/install/turtlebot3_gazebo

@@ -1,0 +1,33 @@
+[0.027s] Invoking command in '/home/qjari/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces': /usr/bin/cmake /home/qjari/turtlebot3_ws/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/qjari/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces
+[0.079s] -- The C compiler identification is GNU 11.4.0
+[0.155s] -- The CXX compiler identification is GNU 11.4.0
+[0.155s] -- Detecting C compiler ABI info
+[0.226s] -- Detecting C compiler ABI info - done
+[0.240s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.241s] -- Detecting C compile features
+[0.242s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.341s] -- Detecting CXX compiler ABI info - done
+[0.356s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.356s] -- Detecting CXX compile features
+[0.357s] -- Detecting CXX compile features - done
+[0.370s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.569s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.658s] Traceback (most recent call last):
+[0.658s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.658s]     from ament_package.templates import get_environment_hook_template_path
+[0.658s] ModuleNotFoundError: No module named 'ament_package'
+[0.669s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.669s]   execute_process(/usr/bin/python3
+[0.669s]   /opt/ros/humble/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.669s]   /home/qjari/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_package_templates/templates.cmake)
+[0.669s]   returned error code 1
+[0.669s] Call Stack (most recent call first):
+[0.669s]   /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.669s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.669s]   /opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.669s]   CMakeLists.txt:14 (find_package)
+[0.670s] 
+[0.670s] [0m
+[0.670s] -- Configuring incomplete, errors occurred!
+[0.670s] See also "/home/qjari/turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/CMakeFiles/CMakeOutput.log".
